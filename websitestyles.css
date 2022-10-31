@@ -242,6 +242,8 @@ h3 {
 
 .campus-col img {
 	width: 100%;
+	display: block;
+
 }
 
 .layer {
@@ -276,4 +278,35 @@ h3 {
 	bottom: 49%;
 	opacity: 1;
 }
-	
+
+/* -------------- Facilities ------------ */
+
+.facilities {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.facilities-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.facilities-col img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.facilities-col p {
+	padding: 0;
+}
+
+.facilities-col h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
