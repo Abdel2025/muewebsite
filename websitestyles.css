@@ -48,7 +48,7 @@ nav {
 	content: '';
 	height: 3px;
 	width: 0%;
-	background: #009688;
+	background: #f44336;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -88,7 +88,7 @@ button {
 	margin: 20px 10px;
 	border-radius: 25px;
 	font-weight: bold;
-	border: 2px solid #009688;
+	border: 2px solid #f44336;
 	background: transparent;
 	color: #fff;
 	cursor: pointer;
@@ -97,7 +97,7 @@ button {
 }
 
 span {
-	background: #009688;
+	background: #f44336;
 	height: 100%;
 	width: 0%;
 	border-radius: 25px;
@@ -208,9 +208,9 @@ p {
 
 .service-col {
 	flex-basis: 31%;
-	background: #fff3f3;
+	background: #D5F3FE;
 	border-radius: 10px;
-	margin-bottom: 5%;
+	margin-bottom: 20px;
 	padding: 20px 12px;
 	box-sizing: border-box;
 	transition: 0.5s;
@@ -244,7 +244,7 @@ h3 {
 .campus-col {
 	flex-basis: 32%;
 	border-radius: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
 }
@@ -301,7 +301,7 @@ h3 {
 .facilities-col {
 	flex-basis: 31%;
 	border-radius: 10px;
-	margin-bottom: 5%;
+	margin-bottom: 10px;
 	text-align: left;
 }
 
@@ -335,18 +335,18 @@ h3 {
 	border-radius: 10px;
 	margin-bottom: 5%;
 	text-align: left;
-	background: #fff3f3;
+	background: #D5F3FE;
 	padding: 20px 12px;
-	cursor: pointer;
 	display: flex;
 	width: 30px;
 	box-sizing: border-box;
+	transition: 0.5s;
 }
 
 /*
 .testimonials-col {
 	flex-basis: 31%;
-	background: #FFCAD6;
+	background: #D5F3FE;
 	border-radius: 10px;
 	margin-bottom: 5%;
 	padding: 20px 12px;
@@ -374,11 +374,16 @@ h3 {
 .testimonials-col h3 {
 	margin-top: 15px;
 	text-align: left;
+	margin-left: 10px;
 }
  
+.testimonials-col:hover {
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
 
 .stars {
 	color: #f44336;
+	margin-left: 10px;
 }
 
 
@@ -467,7 +472,48 @@ h3 {
 }
 
 .btn:hover {
-	border: 1px solid #009688;
-	background: #009688;
+	border: 1px solid #f44336;
+	background: #f44336;
 	transition: 1s;
+}
+
+
+.quote {
+	
+	border-radius: 10px;
+	background: #D5F3FE;
+	padding: 40px 12px;
+	width: 30%;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.quote p {
+	text-align: justify;
+	margin-left: 25px;
+}
+
+.quote h3 {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.quote img {
+	height: 80px;
+	width: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+}
+
+.quote h3:last-of-type {
+	text-align: left;
+	margin-left: 120px;
+	color: #f44336;
+}
+
+.quote:hover {
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
