@@ -103,7 +103,7 @@ button {
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
-}
+}	
 
 span {
 	background: #f44336;
@@ -357,10 +357,64 @@ p {
 
 
 @media(max-width: 700px) {
-	.row {
-		flex-direction: column;
-	}
+.row {
+	flex-direction: column;
 }
+.service-col {
+	flex-basis: 300px;
+	background: #FFBF00;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	margin-left: 20px;
+}
+
+.service-col:nth-of-type(2) {
+	flex-basis: 300px;
+	background: #56CB85;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 25px;
+	width: 100%;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.service-col:nth-of-type(3) {
+	flex-basis: 300px;
+	background: #855DFF;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 25px;
+	width: 100%;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.service-col:nth-of-type(4) {
+	flex-basis: 300px;
+	background: #FF4646;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 25px;
+	width: 100%;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+}
+
+
+
+
+
+
 
 /*------------- Destinations ----------*/
 
@@ -385,6 +439,19 @@ p {
 	display: block;
 
 }
+
+.campus p {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	color: #1B1822;
+	line-height: 64px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
 
 .layer {
 	background: transparent;
@@ -418,6 +485,32 @@ p {
 	bottom: 49%;
 	opacity: 1;
 }
+
+
+.btndestination {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 40px;
+	font-size: 18px;
+	background: #f44336;
+	position: relative;
+	cursor: pointer;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+
+.btndestination:hover {
+	box-shadow: 0 0 20px 0px rgb(255, 73, 71, 0.5);
+	}
+
+
+
+
 
 
 /* -------------- Facilities ------------ */
@@ -550,7 +643,7 @@ p {
 	margin: auto;
 	margin-bottom: 100px;
 	width: 80%;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(library.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(sky.jpg);
 	background-position: center;
 	background-size: cover;
 	border-radius: 10px;
@@ -660,7 +753,8 @@ p {
 	margin: auto;
 	transition: 0.5s;
 	height: 150px;
-	margin-bottom: 100px;
+	margin-bottom: 120px;
+	margin-top: 50px;
 }
 
 .quote p {
@@ -698,19 +792,34 @@ p {
 
 @media(max-width: 700px) {
 	.quote img {
-	margin-right: 15px;
-	margin-top: 50px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	margin-left: 120px;
 	}
 	.quote {
 	width: 80%;
+	height: 350px;
 	}
 	.quote p {
-	margin-left: 110px;
-	text-align: justify;
+	margin-left: 0px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+	
 	}
 	.quote h3 {
-	margin-left: 120px;
+	text-align: center;
+	margin-left: 0px;
 	}
+	.quote h3:last-of-type {
+	text-align: center;
+	margin-left: 0px;
+	color: #f44336;
+	
+}
 	
 }
 
